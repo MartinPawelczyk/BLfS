@@ -15,9 +15,9 @@ tests/
   _reference.py                Slow reference implementations the tests compare against; do not edit
   fixtures/corpus.txt          A tiny corpus with special tokens
 scripts/prepare_data.py        Tokenise a text file into a uint16 memmap with your tokenizer
-scripts/train.py               Training-loop skeleton with the results.json plumbing done
+scripts/train.py               Training-loop skeleton with the results.json 
 notebooks/setup.ipynb          Colab: mount Drive, install, run tests, train
-report/report.tex              The report template (At most three pages)
+report/report.tex              The report template (At most three pages!)
 grading/grade.py               Exactly what we run: points per component
 grading/validate_results.py    Checks results.json before you submit
 ```
@@ -26,13 +26,12 @@ grading/validate_results.py    Checks results.json before you submit
 
 ```
 uv sync                                         # or: pip install -e .
-uv run pytest -q                                # 74 tests, all will fail until you fill in tests/adapters.py
-uv run pytest -q tests/test_tokenizer.py -x     # one part at a time, stop at the first failure
-python grading/grade.py                         # your current automatic score
+uv run pytest -q                                # all tests will fail until you fill in tests/adapters.py
+uv run pytest -q tests/test_tokenizer.py -x     # one part at a time
 ```
 
 The tests run on CPU in a few seconds. Signatures, shapes and conventions are documented
-in `tests/adapters.py`. If a test and the assingment text seem to disagree. the tests win.
+in `tests/adapters.py`. If a test and the assingment text seem to disagree, the tests win!
 
 ## Submitting
 
