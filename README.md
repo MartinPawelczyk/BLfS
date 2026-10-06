@@ -7,11 +7,11 @@ data preparation, training and reporting steps.
 lm/                     
 tests/
   adapters.py                  The **only** test file you edit: point each function at your code
-  test_tokenizer.py            Part 1 (20 points)
-  test_model.py                Part 2 modules and accounting (15 points)
-  test_nn_utils.py             Loss, Clipping, Generation (5 points)
-  test_optimizer.py            AdamW, cosine schedule (5 points)
-  test_data.py                 Batches, Checkpoints (5 points)
+  test_tokenizer.py            Part 1
+  test_model.py                Part 2 modules and accounting
+  test_nn_utils.py             Loss, Clipping, Generation 
+  test_optimizer.py            AdamW, cosine schedule 
+  test_data.py                 Batches, Checkpoints
   _reference.py                Slow reference implementations the tests compare against; do not edit
   fixtures/corpus.txt          A tiny corpus with special tokens
 scripts/prepare_data.py        Tokenise a text file into a uint16 memmap with your tokenizer
