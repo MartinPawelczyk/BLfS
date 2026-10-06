@@ -37,4 +37,4 @@ in `tests/adapters.py`. If a test and the assingment text seem to disagree, the 
 
 One archive per person containing this directory (**without** data and without checkpoints),
 `results.json` (run `python grading/validate_results.py results.json` first), the report
-PDF, the notebook you trained with, and a Drive link to the reference checkpoint.
+PDF, the notebook you trained with.
