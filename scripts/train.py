@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Training-loop skeleton for Assignment 1. The plumbing (config, logging, results.json,
-checkpoint/resume) is here; the model, loss, optimizer and schedule are yours.
+"""Training-loop skeleton for Assignment 1. The basics (config, logging, results.json,
+checkpoint/resume) are here; the model, loss, optimizer and schedule are yours to fill.
 
     python scripts/train.py --data data/train.bin --val data/val.bin --out runs/ref \
         --lr 1e-3 --steps 24414 --batch 32 --ctx 256
 
-Fill in the TODO lines. Everything else can stay as it is.
+Fill in the TODO lines. Everything else can stay as is.
 """
 from __future__ import annotations
 
