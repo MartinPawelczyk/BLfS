@@ -18,8 +18,6 @@ scripts/prepare_data.py        Tokenise a text file into a uint16 memmap with yo
 scripts/train.py               Training-loop skeleton with the results.json 
 notebooks/setup.ipynb          Colab: mount Drive, install, run tests, train
 report/report.tex              The report template (At most three pages!)
-grading/grade.py               Exactly what we run: points per component
-grading/validate_results.py    Checks results.json before you submit
 ```
 
 ## Getting started
