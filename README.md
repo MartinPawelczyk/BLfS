@@ -1,6 +1,6 @@
 # Assignment 1 -- Train a minimal LM from scratch
 
-This kit contains the tests your code must pass. The adapter file that connects the tests to your code. We also provide skeletons for the
+This kit should help you get started. It contains the tests your code would ideally pass. The adapter file connects the tests to your code. We also provide skeletons for the
 data preparation, training and reporting steps.
 
 ```
